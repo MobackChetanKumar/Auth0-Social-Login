@@ -1,0 +1,39 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 0px 10px;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-right {
+  display: flex;
+  .login{
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .logout{
+    cursor: pointer;
+  }
+}
+.header .logo img {
+  height: 25px;
+}
+.bodyContainer {
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
