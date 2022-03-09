@@ -1,11 +1,11 @@
 {
-  "homepage": "http://MobackChetanKumar.github.io/Auth0-Social-login",
+  "homepage": "http://MobackChetanKumar.github.io/Auth0-Social-Login",
   "name": "auth0-social-login",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --prod --base-href https://mobackchetankumar.github.io/",
+    "build": "ng build --prod --base-href https://mobackchetankumar.github.io/Auth0-Social-Login",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "predeploy": "npm run build",
